@@ -29,6 +29,7 @@ import redis.clients.util.SafeEncoder;
 @Component
 public class RedisUtil implements InitializingBean
 {
+
     private Logger logger = LoggerFactory.getLogger(RedisUtil.class);
 
     // sentinels中间件连接地址
