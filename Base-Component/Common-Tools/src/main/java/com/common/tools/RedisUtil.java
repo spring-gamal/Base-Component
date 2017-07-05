@@ -24,7 +24,6 @@ import redis.clients.util.SafeEncoder;
 /**
  * Redis 客户端工具类
  * 
- * @date 2016-10-13
  */
 @Component
 public class RedisUtil implements InitializingBean

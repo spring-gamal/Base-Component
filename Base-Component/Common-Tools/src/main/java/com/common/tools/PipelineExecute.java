@@ -14,12 +14,10 @@ import redis.clients.jedis.Client;
 import redis.clients.jedis.Pipeline;
 
 
-/** 
- * @ClassName: Transaction 
+/**
+ * @ClassName: Transaction
  * @Description: TODO
- * @author: yong
- * @date 2012-12-19 下午04:21:59
- *  
+ * @author:
  */
 public abstract class PipelineExecute extends Pipeline{
 	public PipelineExecute() {

@@ -17,8 +17,6 @@ import redis.clients.jedis.Transaction;
 /** 
  * @ClassName: Transaction 
  * @Description: TODO
- * @author: yong
- * @date 2012-12-19 下午04:21:59
  *  
  */
 public abstract class RedisTransactionExecute extends Transaction{

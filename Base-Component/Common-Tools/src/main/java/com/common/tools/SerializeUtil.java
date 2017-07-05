@@ -87,5 +87,4 @@ public class SerializeUtil {
 		}
 		return object;
 	}
-
 }
