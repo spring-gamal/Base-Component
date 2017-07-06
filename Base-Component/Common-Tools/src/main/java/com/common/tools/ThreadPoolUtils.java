@@ -11,7 +11,6 @@ public class ThreadPoolUtils implements InitializingBean
 
     private static ExecutorService executorService;
 
-    @Override
     public void afterPropertiesSet() throws Exception
     {
         executorService = Executors.newFixedThreadPool(HTREAD_POOL_DEFAULT_SIZE);
