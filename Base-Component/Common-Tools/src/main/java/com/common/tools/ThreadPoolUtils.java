@@ -5,9 +5,17 @@ import java.util.concurrent.Executors;
 
 import org.springframework.beans.factory.InitializingBean;
 
+/**
+ * 线程池
+ * 
+ * @author zfzhu
+ */
 public class ThreadPoolUtils implements InitializingBean
 {
-    public static final int HTREAD_POOL_DEFAULT_SIZE = 30;
+    /**
+     * 线程池默认打小
+     */
+    private static final int HTREAD_POOL_DEFAULT_SIZE = 30;
 
     private static ExecutorService executorService;
 
